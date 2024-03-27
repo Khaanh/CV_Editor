@@ -1,9 +1,15 @@
+import BtnSave from "../components/BtnSave";
+import BtnEdit from "../components/BtnEdit";
+
 export default function Home() {
 	return (
 		<main>
 			<div className="w-[78%] m-auto">
 				<div>
-					<div>save & edit buttons</div>
+					<div className="flex justify-center">
+						<BtnSave />
+						<BtnEdit />
+					</div>
 
 					<div className="border-2 border-slate-600 border-solid h-full my-4 p-4">
 						<header className="header-block">
